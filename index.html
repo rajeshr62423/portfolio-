@@ -502,67 +502,123 @@
     <div class="wrap">
       <div class="sec-label mono"><span class="num">04</span> Selected work</div>
       <h2 class="sec-title reveal">Projects</h2>
-      <div class="proj reveal">
-        <div class="proj-grid">
-          <div class="proj-body">
-            <div class="proj-tag mono">ERP PLATFORM · GWAY TECH SOLUTIONS</div>
-            <h3>Enterprise Resource Planning suite</h3>
-            <p>A modular, customizable ERP for managing end-to-end business operations — one unified platform, many interconnected modules.</p>
-            <ul>
-              <li>Built integrated modules — CRM, Sales, Procurement, Inventory, Service, Gate Management and Finance — inside a single platform.</li>
-              <li>Designed configurable features and dynamic forms so each module adapts to different client workflows without code changes.</li>
-              <li>Created reusable dashboards in React.js and React Native, using Redux &amp; Redux-Saga to sync real-time data across modules.</li>
-              <li>Integrated REST APIs for CRUD, cross-module data flow and reporting.</li>
-            </ul>
-            <div class="stackrow">
-              <span class="chip">React.js</span><span class="chip">React Native</span><span class="chip">Redux</span><span class="chip">REST APIs</span>
-            </div>
-          </div>
-          <div class="proj-viz">
-            <svg viewBox="0 0 320 320" width="100%" role="img" aria-label="Diagram of ERP modules connected to a central core">
-              <!-- spokes -->
-              <g class="spoke-group">
-                <line class="spoke" x1="160" y1="160" x2="160" y2="46"/>
-                <line class="spoke" x1="160" y1="160" x2="258" y2="103"/>
-                <line class="spoke" x1="160" y1="160" x2="258" y2="217"/>
-                <line class="spoke" x1="160" y1="160" x2="160" y2="274"/>
-                <line class="spoke" x1="160" y1="160" x2="62" y2="217"/>
-                <line class="spoke" x1="160" y1="160" x2="62" y2="103"/>
-                <line class="spoke" x1="160" y1="160" x2="42" y2="160"/>
-              </g>
-              <!-- core -->
-              <g class="mod"><circle class="mod-core" cx="160" cy="160" r="34"/><text class="mod-core-text" x="160" y="158" text-anchor="middle">ERP</text><text class="mod-core-text" x="160" y="170" text-anchor="middle" style="font-size:9px">core</text></g>
-              <!-- module nodes -->
-              <g class="mod"><rect x="126" y="30" width="68" height="26" rx="6"/><text x="160" y="47" text-anchor="middle">CRM</text></g>
-              <g class="mod"><rect x="224" y="90" width="76" height="26" rx="6"/><text x="262" y="107" text-anchor="middle">Sales</text></g>
-              <g class="mod"><rect x="222" y="204" width="86" height="26" rx="6"/><text x="265" y="221" text-anchor="middle">Service</text></g>
-              <g class="mod"><rect x="112" y="278" width="96" height="26" rx="6"/><text x="160" y="295" text-anchor="middle">Inventory</text></g>
-              <g class="mod"><rect x="8" y="204" width="96" height="26" rx="6"/><text x="56" y="221" text-anchor="middle">Finance</text></g>
-              <g class="mod"><rect x="4" y="90" width="104" height="26" rx="6"/><text x="56" y="107" text-anchor="middle">Procurement</text></g>
-              <g class="mod"><rect x="0" y="147" width="40" height="26" rx="6"/><text x="20" y="164" text-anchor="middle" style="font-size:9px">Gate</text></g>
-            </svg>
-          </div>
-        </div>
+<!-- ERP PROJECT -->
+<div class="proj reveal">
+  <div class="proj-grid">
+    <div class="proj-body">
+      <div class="proj-tag mono">ERP PLATFORM · GWAY TECH SOLUTIONS</div>
+      <h3>Enterprise Resource Planning suite</h3>
+      <p>
+        A modular, full-stack ERP platform built for end-to-end business operations. 
+        Designed as a unified system with tightly interconnected modules, 
+        configurable workflows, and real-time data sync across web and mobile.
+      </p>
+      <ul>
+        <li>
+          Built and maintained core modules — 
+          <strong>CRM, Sales, Procurement, Inventory, Production, Service, Gate Management & Finance</strong> — 
+          inside a single scalable platform.
+        </li>
+        <li>
+          Developed backend services with <strong>NestJS</strong> and Node.js, 
+          handling complex business logic, role-based access, and cross-module data flow.
+        </li>
+        <li>
+          Created configurable features and dynamic forms so each module adapts to 
+          different client workflows without code changes.
+        </li>
+        <li>
+          Built reusable dashboards in React.js & React Native using Redux + Redux-Saga 
+          for real-time state synchronization across modules.
+        </li>
+        <li>
+          Designed and integrated REST APIs for CRUD operations, reporting, 
+          and seamless communication between frontend and NestJS services.
+        </li>
+      </ul>
+      <div class="stackrow">
+        <span class="chip">NestJS</span>
+        <span class="chip">Node.js</span>
+        <span class="chip">React.js</span>
+        <span class="chip">React Native</span>
+        <span class="chip">Redux</span>
+        <span class="chip">MongoDB</span>
+        <span class="chip">REST APIs</span>
       </div>
+    </div>
 
+    <div class="proj-viz">
+      <svg viewBox="0 0 320 340" width="100%" role="img" aria-label="Diagram of ERP modules connected to a central core">
+        <!-- spokes -->
+        <g class="spoke-group">
+          <line class="spoke" x1="160" y1="160" x2="160" y2="42"/>
+          <line class="spoke" x1="160" y1="160" x2="258" y2="90"/>
+          <line class="spoke" x1="160" y1="160" x2="270" y2="160"/>
+          <line class="spoke" x1="160" y1="160" x2="258" y2="230"/>
+          <line class="spoke" x1="160" y1="160" x2="160" y2="278"/>
+          <line class="spoke" x1="160" y1="160" x2="62" y2="230"/>
+          <line class="spoke" x1="160" y1="160" x2="50" y2="160"/>
+          <line class="spoke" x1="160" y1="160" x2="62" y2="90"/>
+        </g>
+
+        <!-- core -->
+        <g class="mod">
+          <circle class="mod-core" cx="160" cy="160" r="34"/>
+          <text class="mod-core-text" x="160" y="156" text-anchor="middle">ERP</text>
+          <text class="mod-core-text" x="160" y="170" text-anchor="middle" style="font-size:9px">core</text>
+        </g>
+
+        <!-- modules -->
+        <g class="mod"><rect x="126" y="26" width="68" height="26" rx="6"/><text x="160" y="43" text-anchor="middle">CRM</text></g>
+        <g class="mod"><rect x="224" y="77" width="76" height="26" rx="6"/><text x="262" y="94" text-anchor="middle">Sales</text></g>
+        <g class="mod"><rect x="236" y="147" width="76" height="26" rx="6"/><text x="274" y="164" text-anchor="middle">Service</text></g>
+        <g class="mod"><rect x="220" y="217" width="86" height="26" rx="6"/><text x="263" y="234" text-anchor="middle">Production</text></g>
+        <g class="mod"><rect x="112" y="292" width="96" height="26" rx="6"/><text x="160" y="309" text-anchor="middle">Inventory</text></g>
+        <g class="mod"><rect x="8" y="217" width="96" height="26" rx="6"/><text x="56" y="234" text-anchor="middle">Finance</text></g>
+        <g class="mod"><rect x="4" y="147" width="40" height="26" rx="6"/><text x="24" y="164" text-anchor="middle" style="font-size:9px">Gate</text></g>
+        <g class="mod"><rect x="4" y="77" width="104" height="26" rx="6"/><text x="56" y="94" text-anchor="middle">Procurement</text></g>
+      </svg>
+    </div>
+  </div>
+</div>
       <div class="proj-mini-grid">
-        <div class="proj-mini reveal">
-          <div class="proj-tag mono">REALTIME · MESSAGING</div>
-          <h3>Realtime Chat App</h3>
-          <p>A live one-to-one and group messaging app where messages arrive the moment they're sent. Handles instant delivery over a persistent socket connection, with conversation history stored per user.</p>
-          <div class="stackrow">
-            <span class="chip">React Native</span><span class="chip">Node.js</span><span class="chip">Socket.IO</span><span class="chip">MongoDB</span>
-          </div>
-        </div>
+       
 
-        <div class="proj-mini reveal">
-          <div class="proj-tag mono">TAMIL CULTURE · FINANCE</div>
-          <h3>Moi Book</h3>
-          <p>A digital ledger for managing <em>moi</em> — the monetary gifts recorded at Tamil functions like weddings. Log each contributor and amount, track running totals, and keep a clear record for reciprocation at future events.</p>
-          <div class="stackrow">
-            <span class="chip">React Native</span><span class="chip">Redux</span><span class="chip">MongoDB</span>
-          </div>
-        </div>
+       <div class="proj-mini-grid">
+  <div class="proj-mini reveal">
+    <div class="proj-tag mono">REALTIME · MESSAGING</div>
+    <h3>Realtime Chat App</h3>
+    <p>
+      A full-stack one-to-one and group messaging application with instant delivery. 
+      Built a Node.js backend with Socket.IO for persistent real-time connections, 
+      message broadcasting, and online status tracking. Conversation history and user data 
+      are stored in MongoDB, while the React Native client handles live UI updates.
+    </p>
+    <div class="stackrow">
+      <span class="chip">React Native</span>
+      <span class="chip">Node.js</span>
+      <span class="chip">Socket.IO</span>
+      <span class="chip">MongoDB</span>
+      <span class="chip">REST APIs</span>
+    </div>
+  </div>
+
+  <div class="proj-mini reveal">
+    <div class="proj-tag mono">TAMIL CULTURE · FINANCE</div>
+    <h3>Moi Book</h3>
+    <p>
+      A digital ledger for managing <em>moi</em> — the monetary gifts recorded at Tamil functions like weddings. 
+      Users can log contributors and amounts, track running totals, and maintain clear records for reciprocation. 
+      Built with React Native on the frontend and a Node.js + MongoDB backend for data persistence and reporting.
+    </p>
+    <div class="stackrow">
+      <span class="chip">React Native</span>
+      <span class="chip">Node.js</span>
+      <span class="chip">Redux</span>
+      <span class="chip">MongoDB</span>
+    </div>
+  </div>
+</div>
       </div>
     </div>
   </section>
